@@ -29,6 +29,7 @@ public class Q8 {
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
         int array[] = new int[n];
+ System.out.println("Enter the elements in the array.\n");
 
         for(int i=0;i<n;i++)
         {
