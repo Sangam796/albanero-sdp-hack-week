@@ -2,8 +2,14 @@ public class Q7 {
 
     public static void main(String[] args)
     {
-        int array[]= new int[]{0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
-        int startCounter=0, endCounter, zeroCounter=0 , k =3;
+      int n;
+        Scanner sc = new Scanner(System.in);
+        n= sc.nextInt();
+        int array[]= new int[n];
+        for(int i=0;i<n;i++)
+        array[i] = sc.nextInt();
+        int k = sc.nextInt();
+        int startCounter=0, endCounter, zeroCounter=0 ;
         int maxConsecutiveOneCount = 0;
         for(endCounter=0;endCounter<array.length;endCounter++)
         {
