@@ -19,6 +19,16 @@ public class Q6 {
             AP.add(j,item);
             j++;
         }
+        
+        String sb = new String();
+        for (int i =0; i<AP.size();i++) {
+            if(i==AP.size()-1)
+          sb+=String.valueOf(AP.get(i))+" ";
+          else
+          sb+= String.valueOf(AP.get(i)+" , ");
+        }
+        System.out.println("The number string = " + sb);
+        
         return AP;
     }
 
@@ -39,7 +49,11 @@ public class Q6 {
         System.out.println("Enter Difference between two consecutive terms.");
         difference = sc.nextInt();
         Q6 APobj1 = new Q6(difference, total, firstTerm);
-        System.out.println(APobj1.ArithmeticProgration());
+        ArrayList<Integer> sequence = APobj1.ArithmeticProgration();
+        for(Integer s : sequence)
+        {
+
+        }
         queries--;
         k++;
         }
