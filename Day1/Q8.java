@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Q8 {
 
     public static int minIndex(int array[])
