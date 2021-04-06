@@ -20,19 +20,31 @@ public class Q8 {
 
         return sum;
     }
-    public static void main(String[] args)
+      public static void main(String[] args)
     {
 
-        int array[] = new int[]{9,-1,0,4,5};
-int min ;
-int k=2;
+        int n;
+        System.out.println("Enter the size of an array.\n");
+        Scanner scan = new Scanner(System.in);
+        n = scan.nextInt();
+        int array[] = new int[n];
+
+        for(int i=0;i<n;i++)
+        {
+            array[i] = scan.nextInt();
+        }
+        System.out.println("Enter the value for k");
+         int k = scan.nextInt();
+int minvalue ;
+
 while(k>0)
 {
-  min  = Q8.minIndex(array);
-    array[min] = - array[min];
+  minvalue  = Q8.minIndex(array);
+    array[minvalue] = - array[minvalue];
     k--;
 }
         System.out.println(Q8.sum(array));
     }
     
 }
+
