@@ -1,3 +1,6 @@
+/*Q8. Write a program that finds each factor of a given number n. Your solution should return an array of the number(s) that meet this criteria.
+*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
