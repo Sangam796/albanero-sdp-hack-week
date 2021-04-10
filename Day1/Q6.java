@@ -1,3 +1,4 @@
+//Q6. In mathematics, an Arithmetic Progression (AP) is a sequence of numbers such that the difference between the consecutive terms is constant. Write a program that takes three arguments:
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Q6 {
