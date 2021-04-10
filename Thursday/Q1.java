@@ -1,10 +1,9 @@
-/*Q21. Create a singly linked list. Group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.*/
+/*Q21. Create a singly linked list. Group all the nodes with odd indices together followed by the nodes with even indices,
+ and return the reordered list. */
 import java.util.*;
 class Node {
     int data;
     Node next;// by defualt value for object is null
-   
-
 }
 
 class Linkedlist {
@@ -38,27 +37,20 @@ class Linkedlist {
     {
        
         Node traverse =  list1.head1;
-        int element;
-        int index=0;
-        while(traverse!=null)
+        Node pointToOddNode= list1.head1;
+        Node pointToEvenNode = list1.head1.next;
+        Node PointToFirstEvenNode = pointToEvenNode;
+
+
+        while(pointToEvenNode!=null && pointToEvenNode.next!=null)
         {
-            index++;
-            element =  traverse.data;
-            if(index%2!=0)
-            list2.insertAtLast1(element,list2);
-            traverse = traverse.next;
+            pointToOddNode.next = pointToEvenNode.next;
+            pointToOddNode = pointToOddNode.next;
+            pointToEvenNode.next = pointToOddNode.next;
+            pointToEvenNode = pointToEvenNode.next;
         }
-         traverse =  list1.head1;
-        index=0;
-        while(traverse!=null)
-        {
-            index++;
-            element =  traverse.data;
-            if(index%2==0)
-            list2.insertAtLast1(element, list2);
-            traverse = traverse.next;
-        }
-        return list2;
+        pointToOddNode.next = PointToFirstEvenNode;
+        return list1;
     }
    
 }
