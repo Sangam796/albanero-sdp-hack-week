@@ -33,7 +33,7 @@ class Linkedlist {
         System.out.println();
     }
 
-    public Linkedlist OddEvenList(Linkedlist list1, Linkedlist list2)
+    public Linkedlist OddEvenList(Linkedlist list1)
     {
        
         Node traverse =  list1.head1;
@@ -63,10 +63,9 @@ public class Q1 {
         {
             list.insertAtLast1(sc.nextInt(),list);
         }
-     Linkedlist resultList = new Linkedlist();
      Linkedlist l = new Linkedlist();
      l.showList1(list);
-     l.showList1(l.OddEvenList(list, resultList));
+     l.showList1(l.OddEvenList(list));
      
     }
 }
