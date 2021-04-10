@@ -1,3 +1,4 @@
+//Q10. Take an input, array of numbers and return only the even values.
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.ListIterator;
