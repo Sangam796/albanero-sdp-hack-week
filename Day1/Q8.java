@@ -8,7 +8,7 @@ public class Q8 {
     {
         int index=0;
         int minvalue = array[0];
-        for(int i=1;i<5;i++)
+        for(int i=1;i<array.length;i++)
         if(minvalue>array[i])
         {  index =i;
             minvalue = array[i];
