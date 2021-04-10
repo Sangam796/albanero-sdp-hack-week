@@ -1,9 +1,7 @@
+/*Q6. Take input, an array of positive and negative numbers. Return an array where the 
+first element is the count of positive numbers and the second element is the sum of negative numbers.*/
 import java.util.*;
 public class Q6 {
-
-  
-
-
     public ArrayList<Integer> positiveCountNegativeSum(ArrayList<Integer> arr) //bubble sort
     {
         if(arr.size()==0)
