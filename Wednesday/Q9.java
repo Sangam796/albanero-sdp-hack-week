@@ -1,3 +1,5 @@
+/*Q9.  Write a program that takes an array of numbers arr and a number n. Return true if the sum of any two elements is equal to the given number. Otherwise, return false.
+*/
 import java.util.Scanner;
 public class Q9 {
 
