@@ -1,3 +1,5 @@
+/*Q10 Given an array of 10 numbers, return the maximum possible total made by summing just 5 of the 10 numbers.*/
+
 import java.util.Scanner;
 public class Q10 {
 
