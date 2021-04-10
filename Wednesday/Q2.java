@@ -1,4 +1,4 @@
-import java.util.*;
+//Q2. Increasing Decreasing Stringimport java.util.*;
 public class Q2 {
 
     public String incrDecrString(String str)
