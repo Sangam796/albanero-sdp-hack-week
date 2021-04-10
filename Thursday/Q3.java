@@ -1,4 +1,7 @@
-
+/*Q23. Create a singly linked-list. The list can be represented as:
+  L0 -> L1 -> … → Ln - 1 -> Ln
+  Reorder the list to be in the following form:
+  L0 -> Ln -> L1 → Ln - 1 -> L2 -> Ln - 2 -> …*/
 import java.util.*;
 
 class Node {
