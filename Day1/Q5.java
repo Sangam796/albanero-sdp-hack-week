@@ -1,3 +1,4 @@
+//Q5. Given an array of either entirely odd integers or entirely even integers except for a single Outlier Number. Write a program to return this number.
 import java.util.Scanner;
 public class Q5 {
     int arr[];
