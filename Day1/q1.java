@@ -1,3 +1,5 @@
+//Q1. Generate a String With Characters That Have Odd Counts
+
 public class Q1 {
 
     public String oddString(int n)
