@@ -1,3 +1,4 @@
+//Q4. Add 1 to every element in the given array.
 import java.util.Scanner;
 public class Q4
 {
