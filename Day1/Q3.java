@@ -1,3 +1,4 @@
+//Q3. Given an array of integers, determine whether the sum of its elements is even or odd. The output should be a string ("odd" or "even").
 import java.util.*;
 class CheckArray
 {
