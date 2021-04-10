@@ -1,4 +1,4 @@
-
+/*Q21. Create a singly linked list. Group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.*/
 import java.util.*;
 class Node {
     int data;
